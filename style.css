@@ -38,11 +38,11 @@
   /* gap: 50rem; */
   box-shadow: 0 2px hsl(0, 11%, 84%);
 }
-#button1{
+#button1 {
   position: absolute;
   right: 7rem;
 }
-.second-button {
+.pink-button1 {
   font-weight: 700;
   background-color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
@@ -52,8 +52,11 @@
   /* position: relative; */
   /* left: 58rem; */
 }
-#button-2{
+#button-2 {
   margin-top: 5%;
+}
+button {
+  text-transform: capitalize;
 }
 .head main {
   display: flex;
@@ -68,75 +71,120 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.2rem;
 }
-.container{
+.container {
   padding: 2.2rem;
   width: 60%;
 }
-.head-mockup img{
-width: 100%
+.head-mockup img {
+  width: 100%;
 }
-.grow-together{
+.grow-together {
   display: flex;
   padding: var(--padding);
   border: 1px solid hsl(326, 19%, 93%);
   border-radius: 0.8rem;
-  box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
   width: 85vw;
   margin: auto;
   height: 55vh;
   margin-bottom: 3rem;
   margin-top: 9rem;
 }
- h3{
+h3 {
   font-weight: 600;
   text-transform: capitalize;
   padding-bottom: 2rem;
 }
-.writeup{
- width: 30vw;
- align-self: center; 
+.writeup {
+  width: 30vw;
+  align-self: center;
 }
-.grow-image{
+.grow-image {
   margin-left: 12rem;
 }
-.flowing-conversations{
+.flowing-conversations {
   display: flex;
   flex-direction: row-reverse;
   padding: var(--padding);
   border: 1px solid hsl(326, 19%, 93%);
   border-radius: 0.8rem;
-  box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
   width: 85vw;
   margin: auto;
   height: 55vh;
   margin-bottom: 3rem;
 }
-.text{
+.text {
   width: 30vw;
-  align-self: center; 
- }
- .flowing-convo-image{
+  align-self: center;
+}
+.flowing-convo-image {
   margin-right: 12rem;
 }
-.users{
+.users {
   display: flex;
   padding: var(--padding);
   border: 1px solid hsl(326, 19%, 93%);
   border-radius: 0.8rem;
-  box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2);
+  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
   width: 85vw;
   margin: auto;
   height: 55vh;
   margin-bottom: 3rem;
 }
-.text1{
- width: 30vw;
- align-self: center; 
+.text1 {
+  width: 30vw;
+  align-self: center;
 }
-.users-image{
+.users-image {
   margin-left: 12rem;
 }
-
-
-
-
+.build-comm {
+  padding: var(--padding);
+  border: 1px solid hsl(326, 19%, 93%);
+  border-radius: 0.8rem;
+  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 35vw;
+  margin: auto;
+  height: 25vh;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+/* styling last button on home page */
+.pink-button2 {
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 0.9rem 2.9rem;
+  border-radius: 3rem;
+  /* position: absolute;
+  left: 38rem; */
+}
+.text3 {
+  text-align: center;
+}
+/* center button in box */
+.button3 {
+  text-align: center;
+}
+/* footer styling starts here */
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 15rem 9rem var(--padding) 9rem;
+}
+/* changes the huddle icon to a white coloration */
+.icon {
+  filter: brightness(0) invert(1);
+}
+/*styling of the copyright icons and text*/
+.bottom-left {
+  text-align: right;
+}
+.bottom-left p {
+  color: hsl(0, 0%, 100%);
+}
