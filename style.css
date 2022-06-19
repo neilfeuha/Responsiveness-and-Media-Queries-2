@@ -246,3 +246,12 @@ svg {
   filter: brightness(0) invert(1);
   padding: 0.5rem;
 }
+/* active states for all pink buttons */
+.pink-button1:active, .pink-button2:active{
+  background-color: hsl(322, 36%, 59%);
+  border: 1px solid hsl(322, 36%, 59%);
+  color: hsl(0, 0%, 100%);
+}
+@media screen and (max-width: 414px){
+
+}
