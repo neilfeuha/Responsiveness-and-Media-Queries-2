@@ -4,6 +4,7 @@
   --font-family: "Open Sans", sans-serif;
   --font-weight: 400;
   --padding: 3rem;
+  --margin-botton: 3rem;
 }
 * {
   margin: 0;
@@ -13,22 +14,15 @@
   font-family: var(--font-family);
   font-weight: var(--font-weight);
 }
-.head {
-  background-image: url(./images/bg-hero-desktop.svg);
-  background-color: hsl(193, 100%, 96%);
-  height: 60%;
-  width: 100%;
-  background-size: cover;
-  padding: var(--padding);
-  margin: auto;
-  overflow: hidden;
-}
+
+/* global styling of header content starts here */
 .head header {
   display: flex;
   padding: var(--padding);
   width: 100%;
   height: 20%;
 }
+/* styling try it free button */
 .head-button {
   font-weight: 700;
   background-color: hsl(0, 0%, 100%);
@@ -38,10 +32,12 @@
   /* gap: 50rem; */
   box-shadow: 0 2px hsl(0, 11%, 84%);
 }
+/* positioning try it free button */
 #button1 {
   position: absolute;
   right: 7rem;
 }
+/* stling get started for free button */
 .pink-button1 {
   font-weight: 700;
   background-color: hsl(322, 100%, 66%);
@@ -52,108 +48,107 @@
   /* position: relative; */
   /* left: 58rem; */
 }
+/* positioning get started for free button */
 #button-2 {
   margin-top: 5%;
 }
+/* styling button content */
 button {
   text-transform: capitalize;
 }
+/* styling container holding contents in header */
 .head main {
   display: flex;
   padding: var(--padding);
   height: auto;
-  width: 100%;
   margin-top: -3%;
+}
+.container {
+  padding: 5rem 1rem 5rem 0;
+  width: 70%;
+}
+/* adjust container with mockup to adapt and hold content */
+.head-mockup img {
+  width: 100%;
+}
+/* overall header section styling */
+.head {
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  /* height: 60%; */
+  width: 100%;
+  background-size: cover;
+  padding: var(--padding);
+}
+
+/* NB: global styling of body content starts here */
+
+/* styling header writings on website */
+h3 {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+  font-size: 1.9rem;
 }
 h1 {
   text-transform: capitalize;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
-.container {
-  padding: 2.2rem;
-  width: 60%;
+
+/* general styling of body container */
+.body-content {
+  background-color: hsl(0, 0%, 100%);
+  padding: 6rem 6rem 9rem 6rem;
 }
-.head-mockup img {
-  width: 100%;
-}
+/* styling first container with grow together image*/
 .grow-together {
   display: flex;
   padding: var(--padding);
-  border: 1px solid hsl(326, 19%, 93%);
-  border-radius: 0.8rem;
-  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
-  width: 85vw;
-  margin: auto;
-  height: 55vh;
-  margin-bottom: 3rem;
-  margin-top: 9rem;
+  border-radius: 0.5rem;
+  margin-bottom: var(--margin-botton);
 }
-h3 {
-  font-weight: 600;
-  text-transform: capitalize;
-  padding-bottom: 2rem;
+.text {
+  padding: 5rem 5rem 5rem 3rem;
+  width: 100%;
 }
-.writeup {
-  width: 30vw;
-  align-self: center;
+.photo {
+  width: 100%;
 }
-.grow-image {
-  margin-left: 12rem;
-}
+/* styling second container with flowing conversations image*/
 .flowing-conversations {
   display: flex;
   flex-direction: row-reverse;
   padding: var(--padding);
-  border: 1px solid hsl(326, 19%, 93%);
-  border-radius: 0.8rem;
-  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
-  width: 85vw;
-  margin: auto;
-  height: 55vh;
-  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+  margin-bottom: var(--margin-botton);
 }
-.text {
-  width: 30vw;
-  align-self: center;
-}
-.flowing-convo-image {
-  margin-right: 12rem;
-}
-.users {
+/* styling third container with user's image*/
+.your-users {
   display: flex;
   padding: var(--padding);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin-bottom: 6rem;
+}
+/* ready to build your community element styling */
+.container2 {
+  /* padding: var(--padding); */
   border: 1px solid hsl(326, 19%, 93%);
   border-radius: 0.8rem;
-  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
-  width: 85vw;
+  width: 50vw;
+  padding: 2rem;
   margin: auto;
-  height: 55vh;
-  margin-bottom: 3rem;
+  background-color: hsl(0, 0%, 100%);
 }
-.text1 {
-  width: 30vw;
-  align-self: center;
-}
-.users-image {
-  margin-left: 12rem;
-}
+/* positioning community container */
 .build-comm {
-  padding: var(--padding);
-  border: 1px solid hsl(326, 19%, 93%);
-  border-radius: 0.8rem;
-  /* box-shadow: -2px -2px 5px 1px rgba(0, 0, 0, 0.2); */
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
-  width: 35vw;
-  margin: auto;
-  height: 25vh;
-  margin-bottom: 3rem;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  left: 22rem;
 }
 /* styling last button on home page */
 .pink-button2 {
@@ -175,11 +170,49 @@ h3 {
 /* footer styling starts here */
 .footer {
   background-color: hsl(192, 100%, 9%);
-  padding: 15rem 9rem var(--padding) 9rem;
+  padding: 7rem 9rem var(--padding) 9rem;
+  margin-top: -1.5rem;
 }
 /* changes the huddle icon to a white coloration */
 .icon {
   filter: brightness(0) invert(1);
+}
+/* footer body styling starts here */
+.footer-body {
+  display: flex;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+}
+.col1 {
+  width: 40%;
+  padding: var(--padding) 0;
+  display: flex;
+  flex-direction: column;
+}
+.svg-img {
+  float: left;
+  padding: 0.3rem;
+}
+.location,
+.telephone,
+.email {
+  padding: 0.5rem;
+}
+.col2,
+.col3,
+.social-icons {
+  width: 20%;
+  padding: var(--padding) 0;
+}
+.location-text,
+.mail-us,
+.call-us {
+  padding: 0 3rem;
+}
+.location-text p,
+.call-us p,
+.mail-us p {
+  text-align: left;
 }
 /*styling of the copyright icons and text*/
 .bottom-left {
@@ -187,4 +220,29 @@ h3 {
 }
 .bottom-left p {
   color: hsl(0, 0%, 100%);
+}
+.footer-navs li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.footer-navs .uppercase a {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+}
+.footer-navs li {
+  list-style-type: none;
+}
+svg {
+  height: 2rem;
+}
+.social-icons {
+  display: flex;
+  padding: var(--padding);
+}
+.facebook,
+.twitter,
+.instagram {
+  filter: brightness(0) invert(1);
+  padding: 0.5rem;
 }
